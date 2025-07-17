@@ -48,3 +48,5 @@ cards = [78, 34, 23, 11, 8]
 query = 23
 
 position = locate_card(cards, query)
+
+

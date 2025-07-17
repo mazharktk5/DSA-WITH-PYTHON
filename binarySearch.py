@@ -16,5 +16,5 @@ def binarySearch(cards,query):
 
     return -1
 
-result = binarySearch([],11)
+result = binarySearch([9,9,7,7,5,4,3,3,4],3)
 print(result)

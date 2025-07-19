@@ -31,17 +31,25 @@
 
 # factorail
 
-def factorial(n):
-    if n == 0 or n == 1:
-        print(f"the factorial of {n} is :", {n})
-        return 1
-    else:
+# def factorial(n):
+#     if n == 0 or n == 1:
+#         print(f"the factorial of {n} is :", {n})
+#         return 1
+#     else:
 
-        result = n * factorial(n-1)
-        print(f"the factorial of {n} is :",{result})
-        return result
+#         result = n * factorial(n-1)
+#         print(f"the factorial of {n} is :",{result})
+#         return result
     
-factorial(5)
+# factorial(5)
+
+# def sum(arr):
+#     if len(arr) == 1:
+#         return arr[0]
+#     else:
+#         return arr[0] + sum(arr[1:])
+# arr = [1,2,3,4]
+# print(sum(arr))  
 
     
     

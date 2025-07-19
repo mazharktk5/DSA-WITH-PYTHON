@@ -51,5 +51,15 @@
 # arr = [1,2,3,4]
 # print(sum(arr))  
 
-    
+
+# def reverse_array(arr):
+#     if len(arr) == 0:
+#         return []
+#     last = arr[-1]
+#     rest_reversed = reverse_array(arr[:-1])
+#     return [last] + rest_reversed
+
+# arr = [1,2,3,4,5]
+# print(reverse_array(arr))
+
     

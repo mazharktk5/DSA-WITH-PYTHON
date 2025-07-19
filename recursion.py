@@ -98,4 +98,13 @@
 
 # print("array is sorted")
 # print(isSorted([1,2,3,4],0))
+
+def reverseStr(str):
+    if len(str) == 0:
+        return ""
+    else:
+        return reverseStr(str[1:]) + str[0]
+    
+str = "mazhar"
+print(reverseStr(str))
     

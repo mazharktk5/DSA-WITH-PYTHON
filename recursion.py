@@ -85,5 +85,17 @@
 # print(linearSearch(arr,5,7))
 
    
+# def isSorted(arr,i):
+#     if i == len(arr)-1:
+#         return True
+#     if arr[i] > arr[i + 1]:
+#         print(f"array is not sorted because {arr[i]} is greater then {arr[i+1]}")
+#         return 
+#     else:
+        
+#         return isSorted(arr,i+1)
 
+
+# print("array is sorted")
+# print(isSorted([1,2,3,4],0))
     

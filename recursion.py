@@ -62,15 +62,28 @@
 # arr = [1,2,3,4,5]
 # print(reverse_array(arr))
 
-def fib(n):
-    if n == 0:
-        return 0
-    if n == 1:
-        return 1
-    else:
-        return fib(n-1) + fib(n-2)
+# def fib(n):
+#     if n == 0:
+#         return 0
+#     if n == 1:
+#         return 1
+#     else:
+#         return fib(n-1) + fib(n-2)
     
-print(fib(6))
+# print(fib(6))
+
+
+def linearSearch(arr,start,target):
+    if start < 0:
+        return -1
+    if arr[start] == target:
+        return start
+    else:
+        return linearSearch(arr,start-1,target)
+    
+arr = [1,4,5,6,7,8]
+print(linearSearch(arr,5,7))
+
    
 
     

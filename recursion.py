@@ -73,16 +73,16 @@
 # print(fib(6))
 
 
-def linearSearch(arr,start,target):
-    if start < 0:
-        return -1
-    if arr[start] == target:
-        return start
-    else:
-        return linearSearch(arr,start-1,target)
+# def linearSearch(arr,start,target):
+#     if start < 0:
+#         return -1
+#     if arr[start] == target:
+#         return start
+#     else:
+#         return linearSearch(arr,start-1,target)
     
-arr = [1,4,5,6,7,8]
-print(linearSearch(arr,5,7))
+# arr = [1,4,5,6,7,8]
+# print(linearSearch(arr,5,7))
 
    
 

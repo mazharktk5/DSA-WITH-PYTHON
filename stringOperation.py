@@ -9,7 +9,18 @@
 # print(s.replace("a", "x"))
 
 
-def length(s):
-    return len(s)
+# def length(s):
+#     return len(s)
 
-print(length("MAZHAR"))
+# print(length("MAZHAR"))
+
+# def index(s):
+#     return s[3]
+
+# print(index("mazhar"))
+
+
+# def reverse(s):
+#     return s[::-1]
+
+# print(reverse("mazhar"))

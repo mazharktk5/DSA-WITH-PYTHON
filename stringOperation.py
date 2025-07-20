@@ -24,3 +24,8 @@
 #     return s[::-1]
 
 # print(reverse("mazhar"))
+
+# def palindrome(s):
+#     return s == s[::-1]
+
+# print(palindrome("madam"))

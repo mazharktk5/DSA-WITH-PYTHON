@@ -119,4 +119,28 @@
 
 
 
+# def longest_subarray_sum_k(nums, k):
+#     prefix_sum = 0
+#     max_len = 0
+#     seen = {0: -1} 
 
+#     print(f"Target sum = {k}")
+#     for i, num in enumerate(nums):
+#         prefix_sum += num
+#         print(f"\nIndex: {i}, Num: {num}, Prefix Sum: {prefix_sum}")
+
+#         if prefix_sum - k in seen:
+#             length = i - seen[prefix_sum - k]
+#             max_len = max(max_len, length)
+#             print(f" Found subarray [{seen[prefix_sum - k] + 1}:{i}] with sum = {k}, length = {length}")
+
+        
+#         if prefix_sum not in seen:
+#             seen[prefix_sum] = i
+#             print(f" Storing prefix_sum {prefix_sum} at index {i}")
+
+#     print(f"\n Longest subarray length with sum {k} = {max_len}")
+#     return max_len
+
+
+# print(longest_subarray_sum_k([1, 2, 3, 4,5, 6, 7, 8, 9], 13))

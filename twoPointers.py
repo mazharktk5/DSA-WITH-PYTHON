@@ -30,4 +30,3 @@ def has_pair_with_sum(arr, target):
 
 # Loop 4: arr[left] + arr[right] = 17
 # curr_sum = 17 → return true
-
